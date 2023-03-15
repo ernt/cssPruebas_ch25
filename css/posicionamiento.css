@@ -1,5 +1,5 @@
 .box{
-    display:inline-block;
+    display:left;
     width: 100px; /* Ancho */
     height: 100px;/* Altura */
     background: pink;/* Fondo */
@@ -13,7 +13,7 @@
     background: palevioletred;
 }
 #three{
-    position:relative;/* static,relative,sticky,absolute,fixed */
+    position:sticky;/* static,relative,sticky,absolute,fixed */
     top: 30px;
     left: 30px;
     background: palegoldenrod;
@@ -22,6 +22,6 @@
 .texto1{
     width: 600px;
     height: 400px;
-    overflow:visible;/* Scrll,hidden,auto,visible */
+    overflow:auto;/* Scroll,hidden,auto,visible */
     padding-left: 150px; /* Espacio entre contenido y borde */
 }
