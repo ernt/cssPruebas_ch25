@@ -1,0 +1,27 @@
+.box{
+    display:inline-block;
+    width: 100px; /* Ancho */
+    height: 100px;/* Altura */
+    background: pink;/* Fondo */
+    color: white; /* Color fuente */
+}
+
+#two{
+    position:relative;/* static,relative,sticky,absolute,fixed */
+    top: 20px;
+    left: 20px;
+    background: palevioletred;
+}
+#three{
+    position:relative;/* static,relative,sticky,absolute,fixed */
+    top: 30px;
+    left: 30px;
+    background: palegoldenrod;
+}
+
+.texto1{
+    width: 600px;
+    height: 400px;
+    overflow:visible;/* Scrll,hidden,auto,visible */
+    padding-left: 150px; /* Espacio entre contenido y borde */
+}
